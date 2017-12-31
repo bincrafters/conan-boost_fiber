@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostFiberConan(ConanFile):
     name = "boost_fiber"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-fiber"
+    url = "https://github.com/bincrafters/conan-boost_fiber"
     
     lib_short_names = ["fiber"]
     is_header_only = False
