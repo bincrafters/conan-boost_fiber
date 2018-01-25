@@ -8,7 +8,8 @@ class BoostFiberConan(ConanFile):
     name = "boost_fiber"
     version = "1.66.0"
     url = "https://github.com/bincrafters/conan-boost_fiber"
-    
+    author = "Bincrafters <bincrafters@gmail.com>"
+    exports = ["LICENSE.md"]
     lib_short_names = ["fiber"]
     is_header_only = False
     
