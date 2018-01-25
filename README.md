@@ -2,7 +2,7 @@
 
 | Bintray | Windows | Linux | OSX |
 |---------|------------|--------|------|
-|[![Download](https://api.bintray.com/packages/bincrafters/public-conan/conan-boost_fiber%3Abincrafters/images/download.svg) ](https://bintray.com/bincrafters/public-conan/conan-boost_fiber%3Abincrafters/_latestVersion)|[![Build status](https://ci.appveyor.com/api/projects/status/github/bincrafters/conan-boost_fiber?svg=true)](https://ci.appveyor.com/project/BinCrafters/conan-boost-fiber)|[![Build Status](https://travis-ci.org/bincrafters/conan-boost_fiber.svg)](https://travis-ci.org/bincrafters/conan-boost_fiber)|[![CircleCI](https://circleci.com/gh/bincrafters/conan-boost_fiber.svg?style=svg)](https://circleci.com/gh/bincrafters/conan-boost_fiber)|
+|[![Download](https://api.bintray.com/packages/bincrafters/public-conan/boost_fiber%3Abincrafters/images/download.svg) ](https://bintray.com/bincrafters/public-conan/boost_fiber%3Abincrafters/_latestVersion)|[![Build status](https://ci.appveyor.com/api/projects/status/github/bincrafters/conan-boost_fiber?svg=true)](https://ci.appveyor.com/project/BinCrafters/conan-boost-fiber)|[![Build Status](https://travis-ci.org/bincrafters/conan-boost_fiber.svg)](https://travis-ci.org/bincrafters/conan-boost_fiber)|[![CircleCI](https://circleci.com/gh/bincrafters/conan-boost_fiber.svg?style=svg)](https://circleci.com/gh/bincrafters/conan-boost_fiber)|
 
 ## Conan.io Information
 
