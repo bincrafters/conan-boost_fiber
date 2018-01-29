@@ -17,14 +17,14 @@ class BoostFiberConan(ConanFile):
     default_options = "shared=False"
     
     requires = (
-        "boost_package_tools/1.66.0@bincrafters/stable",
-        "boost_assert/1.66.0@bincrafters/stable",
-        "boost_config/1.66.0@bincrafters/stable",
-        "boost_context/1.66.0@bincrafters/stable",
-        "boost_core/1.66.0@bincrafters/stable",
-        "boost_intrusive/1.66.0@bincrafters/stable",
-        "boost_predef/1.66.0@bincrafters/stable",
-        "boost_smart_ptr/1.66.0@bincrafters/stable"
+        "boost_package_tools/1.66.0@bincrafters/testing",
+        "boost_assert/1.66.0@bincrafters/testing",
+        "boost_config/1.66.0@bincrafters/testing",
+        "boost_context/1.66.0@bincrafters/testing",
+        "boost_core/1.66.0@bincrafters/testing",
+        "boost_intrusive/1.66.0@bincrafters/testing",
+        "boost_predef/1.66.0@bincrafters/testing",
+        "boost_smart_ptr/1.66.0@bincrafters/testing"
     )
 
     # BEGIN
@@ -34,7 +34,7 @@ class BoostFiberConan(ConanFile):
     short_paths = True
     generators = "boost"
     settings = "os", "arch", "compiler", "build_type"
-    build_requires = "boost_generator/1.66.0@bincrafters/stable"
+    build_requires = "boost_generator/1.66.0@bincrafters/testing"
 
     def package_id(self):
         getattr(self, "package_id_additional", lambda:None)()
