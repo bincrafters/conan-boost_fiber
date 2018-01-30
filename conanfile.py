@@ -12,7 +12,7 @@ class BoostFiberConan(ConanFile):
     exports = ["LICENSE.md"]
     lib_short_names = ["fiber"]
     is_header_only = False
-    
+
     options = {"shared": [True, False]}
     default_options = "shared=False"
 
