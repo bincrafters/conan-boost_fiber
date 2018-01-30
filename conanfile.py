@@ -15,13 +15,16 @@ class BoostFiberConan(ConanFile):
     
     options = {"shared": [True, False]}
     default_options = "shared=False"
-    
+
+    source_only_deps = ["format"]
+
     requires = (
         "boost_package_tools/1.66.0@bincrafters/testing",
         "boost_assert/1.66.0@bincrafters/testing",
         "boost_config/1.66.0@bincrafters/testing",
         "boost_context/1.66.0@bincrafters/testing",
         "boost_core/1.66.0@bincrafters/testing",
+        "boost_filesystem/1.66.0@bincrafters/testing",
         "boost_intrusive/1.66.0@bincrafters/testing",
         "boost_predef/1.66.0@bincrafters/testing",
         "boost_smart_ptr/1.66.0@bincrafters/testing"
