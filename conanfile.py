@@ -21,7 +21,6 @@ class BoostFiberConan(ConanFile):
         "format"
     )
 
-    # TODO: filesystem
     requires = (
         "boost_assert/1.67.0@bincrafters/testing",
         "boost_config/1.67.0@bincrafters/testing",
