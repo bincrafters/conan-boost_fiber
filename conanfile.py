@@ -15,11 +15,11 @@ class BoostFiberConan(ConanFile):
     options = {"shared": [True, False]}
     default_options = "shared=False"
 
-    source_only_deps = (
+    source_only_deps = [
         "algorithm",
         "filesystem",
         "format"
-    )
+    ]
 
     requires = (
         "boost_assert/1.67.0@bincrafters/testing",
