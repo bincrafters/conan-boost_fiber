@@ -4,7 +4,7 @@
 from conans import python_requires
 
 
-base = python_requires("boost_base/1.68.0@bincrafters/testing")
+base = python_requires("boost_base/1.69.0@bincrafters/testing")
 
 class BoostFiberConan(base.BoostBaseConan):
     name = "boost_fiber"
@@ -14,7 +14,6 @@ class BoostFiberConan(base.BoostBaseConan):
     default_options = "shared=False"
     source_only_deps = [
         "algorithm",
-        "filesystem",
         "format"
     ]
     b2_requires = [
@@ -22,6 +21,7 @@ class BoostFiberConan(base.BoostBaseConan):
         "boost_config",
         "boost_context",
         "boost_core",
+        "boost_filesystem",
         "boost_intrusive",
         "boost_predef",
         "boost_smart_ptr"
