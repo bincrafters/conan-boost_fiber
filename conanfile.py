@@ -8,6 +8,7 @@ base = python_requires("boost_base/1.69.0@bincrafters/stable")
 
 class BoostFiberConan(base.BoostBaseConan):
     name = "boost_fiber"
+    version = "1.69.0"
     url = "https://github.com/bincrafters/conan-boost_fiber"
     lib_short_names = ["fiber"]
     options = {"shared": [True, False]}
